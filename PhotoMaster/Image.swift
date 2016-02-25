@@ -14,9 +14,8 @@ class Image : UIImage {
     
     func resize(var image:UIImage)->UIImage{
         if image.size.width != image.size.height{
-            let length = min(image.size.height,image.size.width)
             //リサイズ
-            let size = CGSize(width: length, height: length)
+            let size = CGSize(width: 399, height: 399)
             UIGraphicsBeginImageContext(size)
             image.drawInRect(CGRectMake(0, 0, size.width, size.height))
             image = UIGraphicsGetImageFromCurrentImageContext()
@@ -39,7 +38,6 @@ class Image : UIImage {
                 let cropRef   = CGImageCreateWithImageInRect(image.CGImage, cropRect)
                 
                 let cropImage = UIImage(CGImage: cropRef!)
-                
                 imageArray.append(cropImage)
             }
         }

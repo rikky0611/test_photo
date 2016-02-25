@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UINavigationControllerDelegate,UIImagePickerControllerDelegate {
     
     @IBOutlet var photoImageView : UIImageView!
+    let testImage = UIImage(named: "conoha1.png")
     var selectedImage = Image()
     let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     //AppDelegateのインスタンスを取得
@@ -63,6 +64,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate,UIImagePi
         selectedImage.image =  selectedImage.resize(selectedImage.image)
         appDelegate.imageArray = selectedImage.cutInto9Pieces(selectedImage.image)
         NSLog("\(appDelegate.imageArray.count)個の画像に分割！")
+        NSLog("画像のサイズは\(appDelegate.imageArray[0].size.width)")
         performSegueWithIdentifier("next", sender: nil)
     }
     
