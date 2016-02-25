@@ -9,8 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController, UINavigationControllerDelegate,UIImagePickerControllerDelegate {
+    
     @IBOutlet var photoImageView : UIImageView!
     var selectedImage = Image()
+    let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    //AppDelegateのインスタンスを取得
     
 
     override func viewDidLoad() {
@@ -56,17 +59,13 @@ class ViewController: UIViewController, UINavigationControllerDelegate,UIImagePi
         presentViewController(alert, animated: true, completion: nil)
     }
     
-    @IBAction func resize(){
+    @IBAction func start(){
         selectedImage.image =  selectedImage.resize(selectedImage.image)
-        photoImageView.image = selectedImage.image
-        
+        appDelegate.imageArray = selectedImage.cutInto9Pieces(selectedImage.image)
+        NSLog("\(appDelegate.imageArray.count)個の画像に分割！")
+        performSegueWithIdentifier("next", sender: nil)
     }
     
-    @IBAction func cutInto9Pieces(){
-        var imageArray = selectedImage.cutInto9Pieces(selectedImage.image)
-        photoImageView.image = imageArray[0]
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

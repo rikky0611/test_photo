@@ -15,6 +15,18 @@
 		9A6A80E51C7F251700DD3B42 /* PhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A80E41C7F251700DD3B42 /* PhotoMasterTests.swift */; };
 		9A6A80F01C7F251700DD3B42 /* PhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A80EF1C7F251700DD3B42 /* PhotoMasterUITests.swift */; };
 		9A914B801C7F2EE200E6B32E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A914B7F1C7F2EE200E6B32E /* Image.swift */; };
+		9A914B841C7F3BB700E6B32E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B811C7F3BB700E6B32E /* GameScene.sks */; };
+		9A914B851C7F3BB700E6B32E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A914B821C7F3BB700E6B32E /* GameScene.swift */; };
+		9A914B861C7F3BB700E6B32E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A914B831C7F3BB700E6B32E /* GameViewController.swift */; };
+		9A914B911C7F3C9200E6B32E /* conoha1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B881C7F3C9200E6B32E /* conoha1.png */; };
+		9A914B921C7F3C9200E6B32E /* conoha2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B891C7F3C9200E6B32E /* conoha2.png */; };
+		9A914B931C7F3C9200E6B32E /* conoha3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B8A1C7F3C9200E6B32E /* conoha3.png */; };
+		9A914B941C7F3C9200E6B32E /* conoha4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B8B1C7F3C9200E6B32E /* conoha4.png */; };
+		9A914B951C7F3C9200E6B32E /* conoha5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B8C1C7F3C9200E6B32E /* conoha5.png */; };
+		9A914B961C7F3C9200E6B32E /* conoha6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B8D1C7F3C9200E6B32E /* conoha6.png */; };
+		9A914B971C7F3C9200E6B32E /* conoha7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B8E1C7F3C9200E6B32E /* conoha7.png */; };
+		9A914B981C7F3C9200E6B32E /* conoha8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B8F1C7F3C9200E6B32E /* conoha8.png */; };
+		9A914B991C7F3C9200E6B32E /* conoha9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A914B901C7F3C9200E6B32E /* conoha9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		9A6A80EF1C7F251700DD3B42 /* PhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITests.swift; sourceTree = "<group>"; };
 		9A6A80F11C7F251700DD3B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A914B7F1C7F2EE200E6B32E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9A914B811C7F3BB700E6B32E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9A914B821C7F3BB700E6B32E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9A914B831C7F3BB700E6B32E /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9A914B881C7F3C9200E6B32E /* conoha1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha1.png; sourceTree = "<group>"; };
+		9A914B891C7F3C9200E6B32E /* conoha2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha2.png; sourceTree = "<group>"; };
+		9A914B8A1C7F3C9200E6B32E /* conoha3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha3.png; sourceTree = "<group>"; };
+		9A914B8B1C7F3C9200E6B32E /* conoha4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha4.png; sourceTree = "<group>"; };
+		9A914B8C1C7F3C9200E6B32E /* conoha5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha5.png; sourceTree = "<group>"; };
+		9A914B8D1C7F3C9200E6B32E /* conoha6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha6.png; sourceTree = "<group>"; };
+		9A914B8E1C7F3C9200E6B32E /* conoha7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha7.png; sourceTree = "<group>"; };
+		9A914B8F1C7F3C9200E6B32E /* conoha8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha8.png; sourceTree = "<group>"; };
+		9A914B901C7F3C9200E6B32E /* conoha9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conoha9.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +123,13 @@
 		9A6A80CE1C7F251700DD3B42 /* PhotoMaster */ = {
 			isa = PBXGroup;
 			children = (
+				9A914B871C7F3C7A00E6B32E /* images */,
 				9A914B7F1C7F2EE200E6B32E /* Image.swift */,
 				9A6A80CF1C7F251700DD3B42 /* AppDelegate.swift */,
 				9A6A80D11C7F251700DD3B42 /* ViewController.swift */,
+				9A914B811C7F3BB700E6B32E /* GameScene.sks */,
+				9A914B821C7F3BB700E6B32E /* GameScene.swift */,
+				9A914B831C7F3BB700E6B32E /* GameViewController.swift */,
 				9A6A80D31C7F251700DD3B42 /* Main.storyboard */,
 				9A6A80D61C7F251700DD3B42 /* Assets.xcassets */,
 				9A6A80D81C7F251700DD3B42 /* LaunchScreen.storyboard */,
@@ -126,6 +154,22 @@
 				9A6A80F11C7F251700DD3B42 /* Info.plist */,
 			);
 			path = PhotoMasterUITests;
+			sourceTree = "<group>";
+		};
+		9A914B871C7F3C7A00E6B32E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9A914B881C7F3C9200E6B32E /* conoha1.png */,
+				9A914B891C7F3C9200E6B32E /* conoha2.png */,
+				9A914B8A1C7F3C9200E6B32E /* conoha3.png */,
+				9A914B8B1C7F3C9200E6B32E /* conoha4.png */,
+				9A914B8C1C7F3C9200E6B32E /* conoha5.png */,
+				9A914B8D1C7F3C9200E6B32E /* conoha6.png */,
+				9A914B8E1C7F3C9200E6B32E /* conoha7.png */,
+				9A914B8F1C7F3C9200E6B32E /* conoha8.png */,
+				9A914B901C7F3C9200E6B32E /* conoha9.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +279,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A914B961C7F3C9200E6B32E /* conoha6.png in Resources */,
+				9A914B911C7F3C9200E6B32E /* conoha1.png in Resources */,
+				9A914B841C7F3BB700E6B32E /* GameScene.sks in Resources */,
+				9A914B941C7F3C9200E6B32E /* conoha4.png in Resources */,
 				9A6A80DA1C7F251700DD3B42 /* LaunchScreen.storyboard in Resources */,
+				9A914B951C7F3C9200E6B32E /* conoha5.png in Resources */,
+				9A914B991C7F3C9200E6B32E /* conoha9.png in Resources */,
 				9A6A80D71C7F251700DD3B42 /* Assets.xcassets in Resources */,
+				9A914B921C7F3C9200E6B32E /* conoha2.png in Resources */,
 				9A6A80D51C7F251700DD3B42 /* Main.storyboard in Resources */,
+				9A914B931C7F3C9200E6B32E /* conoha3.png in Resources */,
+				9A914B981C7F3C9200E6B32E /* conoha8.png in Resources */,
+				9A914B971C7F3C9200E6B32E /* conoha7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +316,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A914B861C7F3BB700E6B32E /* GameViewController.swift in Sources */,
 				9A6A80D21C7F251700DD3B42 /* ViewController.swift in Sources */,
 				9A914B801C7F2EE200E6B32E /* Image.swift in Sources */,
+				9A914B851C7F3BB700E6B32E /* GameScene.swift in Sources */,
 				9A6A80D01C7F251700DD3B42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

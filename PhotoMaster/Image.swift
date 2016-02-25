@@ -37,15 +37,13 @@ class Image : UIImage {
                 // 指定された範囲を切り抜いたCGImageRefを生成しUIImageとする
                 
                 let cropRef   = CGImageCreateWithImageInRect(image.CGImage, cropRect)
+                
                 let cropImage = UIImage(CGImage: cropRef!)
                 
                 imageArray.append(cropImage)
             }
         }
-        
         return imageArray
     }
-       
-    
     
 }
