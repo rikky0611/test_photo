@@ -85,6 +85,11 @@ class GameScene: SKScene {
 			}
 		}
 		
+        let originalImageView = UIImageView()
+        originalImageView.frame = CGRectMake(0,0,133,133)
+        originalImageView.image = appDelegate.originalImage
+        self.view!.addSubview(originalImageView)
+        
     }
 	
 	func onClickRotationButton(sender : UIButton!){
