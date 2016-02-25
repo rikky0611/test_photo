@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController, UINavigationControllerDelegate,UIImagePickerControllerDelegate {
     
     @IBOutlet var photoImageView : UIImageView!
-    let testImage = UIImage(named: "conoha1.png")
     var selectedImage = Image()
     let appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
     //AppDelegateのインスタンスを取得

@@ -32,7 +32,7 @@ class Image : UIImage {
         let length = image.size.width/3
         for var i=0;i<3;i++ {
             for var j=0;j<3;j++ {
-                let cropRect : CGRect = CGRectMake(length*CGFloat(i),length*CGFloat(j),length,length)
+                let cropRect : CGRect = CGRectMake(length*CGFloat(j),length*CGFloat(2-i),length,length)
                 // 指定された範囲を切り抜いたCGImageRefを生成しUIImageとする
                 
                 let cropRef   = CGImageCreateWithImageInRect(image.CGImage, cropRect)
