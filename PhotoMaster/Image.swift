@@ -13,14 +13,13 @@ class Image : UIImage {
     var image : UIImage!
     
     func resize(var image:UIImage)->UIImage{
-        if image.size.width != image.size.height{
-            //リサイズ
-            let size = CGSize(width: 399, height: 399)
-            UIGraphicsBeginImageContext(size)
-            image.drawInRect(CGRectMake(0, 0, size.width, size.height))
-            image = UIGraphicsGetImageFromCurrentImageContext()
-            UIGraphicsEndImageContext()
-        }
+    
+        //リサイズ
+        let size = CGSize(width: 399, height: 399)
+        UIGraphicsBeginImageContext(size)
+        image.drawInRect(CGRectMake(0, 0, size.width, size.height))
+        image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
         return image
     }
     
