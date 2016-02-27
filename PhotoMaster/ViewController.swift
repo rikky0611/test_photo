@@ -60,6 +60,9 @@ class ViewController: UIViewController, UINavigationControllerDelegate,UIImagePi
     }
     
     @IBAction func start(){
+        if selectedImage.image == nil{
+            return
+        }
         selectedImage.image =  selectedImage.resize(selectedImage.image)
         appDelegate.originalImage = selectedImage.image
         appDelegate.imageArray = selectedImage.cutInto9Pieces(selectedImage.image)
